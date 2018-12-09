@@ -155,8 +155,8 @@ var defaultConfig = {
         '_empty'
     ],
     'ignoreTypes': [],
-    'namespace': 'GraphqlTypes',
-    'outputFile': './GraphqlTypes.ts'
+    'namespace': 'GQLTypes',
+    'outputFile': './GQLTypes.ts'
 };
 program
     .version(pkg.version)
