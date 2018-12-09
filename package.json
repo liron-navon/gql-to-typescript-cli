@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A command-line tool for using gql-to-typescript via the terminal.",
   "main": "dist/gql-to-typescript-cli.js",
-  "repository": "",
+  "repository": "https://github.com/liron-navon/gql-to-typescript-cli",
   "preferGlobal": true,
   "bin": "./dist/gql-to-typescript-cli.js",
   "scripts": {
