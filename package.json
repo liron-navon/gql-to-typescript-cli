@@ -1,6 +1,6 @@
 {
   "name": "gql-to-typescript-cli",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A command-line tool for using gql-to-typescript via the terminal.",
   "main": "dist/gql-to-typescript-cli.js",
   "repository": "https://github.com/liron-navon/gql-to-typescript-cli",
@@ -11,8 +11,7 @@
     "build": "webpack",
     "build:prod": "NODE_ENV=production webpack",
     "test": "jest",
-    "test:watch": "jest --watch",
-    "before:publish": "npm update gql-to-typescript && npm run build:prod"
+    "test:watch": "jest --watch"
   },
   "author": "Liron Navon",
   "license": "ISC",
