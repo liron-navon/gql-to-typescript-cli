@@ -11,13 +11,14 @@
     "build": "webpack",
     "build:prod": "NODE_ENV=production webpack",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "before:publish": "npm update gql-to-typescript && npm run build:prod"
   },
   "author": "Liron Navon",
   "license": "ISC",
   "dependencies": {
     "commander": "^2.19.0",
-    "gql-to-typescript": "^1.0.9"
+    "gql-to-typescript": "^1.0.10"
   },
   "peerDependencies": {
     "glob": "^7.1.3",
