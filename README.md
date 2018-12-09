@@ -1,4 +1,4 @@
-### gql-to-typescript-cli
+### GQL to Typescript cli
 
 First you gonna need to install it: `npm install -g gql-to-typescript-cli`
 
